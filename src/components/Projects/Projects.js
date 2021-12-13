@@ -99,7 +99,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio Website"
               description="This is my personal website made from scratch using ReactJS. It intends to showcase information about me."
-              link="https://github.com/rushikesh-tk/background-generator"
+              link="https://github.com/rushikesh-tk/portfolio"
             />
           </Col>
         </Row>
