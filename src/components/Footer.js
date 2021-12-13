@@ -9,7 +9,7 @@ function Footer() {
       <Row>
         <Col className="footer-copywright">
           <h3>
-            Made with 💓 by <strong> Rushikesh Taksande </strong>{" "}
+            Made with 💓 by <strong> Rushikesh Taksande</strong>{" "}
           </h3>
           <p>©{year} Rushikesh Taksande</p>
         </Col>

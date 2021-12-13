@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -35,7 +36,11 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">NodeJs</b> and
+              with{" "}
+              <i>
+                <b className="purple">NodeJs</b>
+              </i>{" "}
+              and
               <i>
                 <b className="purple">
                   {" "}
@@ -60,11 +65,12 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="home-about-social center">
             <h1>FIND ME ON</h1>
-            <p>
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </p> */}
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -106,7 +112,22 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:rushikeshtaksande7@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
             </ul>
+            <p>
+              Unlike some companies, <br></br> I{" "}
+              <span className="purple">respond </span>
+              ASAP 😉
+            </p>
           </Col>
         </Row>
       </Container>
