@@ -19,6 +19,7 @@ import mongo from "../../Assets/Skills/mongo.svg";
 import terminal from "../../Assets/Skills/terminal.png";
 import windows from "../../Assets/Skills/windows.png";
 import vercel from "../../Assets/Skills/vercel.svg";
+import netlify from "../../Assets/Skills/netlify.svg";
 
 const Skills = () => {
   return (
@@ -82,6 +83,13 @@ const Skills = () => {
         alt="Vercel"
         title="Vercel"
       />
+          
+      <img
+        src={netlify}
+        className="skill-icons pl4 pa3 small"
+        alt="Netlify"
+        title="Netlify"
+      />    
 
       <img src={c} className="skill-icons pa3 small" alt="C" title="C" />
       <img src={cpp} className="skill-icons pa3" alt="C++" title="C++" />
