@@ -18,6 +18,7 @@ import redux from "../../Assets/Skills/redux.png";
 import mongo from "../../Assets/Skills/mongo.svg";
 import terminal from "../../Assets/Skills/terminal.png";
 import windows from "../../Assets/Skills/windows.png";
+import vercel from "../../Assets/Skills/vercel.svg";
 
 const Skills = () => {
   return (
@@ -73,6 +74,13 @@ const Skills = () => {
         className="skill-icons pl4 pa3 small"
         alt="Heroku"
         title="Heroku"
+      />
+          
+      <img
+        src={vercel}
+        className="skill-icons pl4 pa3 small"
+        alt="Vercel"
+        title="Vercel"
       />
 
       <img src={c} className="skill-icons pa3 small" alt="C" title="C" />
